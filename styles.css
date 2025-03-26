@@ -7,18 +7,26 @@
 
 /* Подключение шрифта SONGER_C_Regular */
 @font-face {
-    font-family: 'Riviera';
-    src: url('/fonts/SONGER_C_Regular.otf') format('truetype'); /* Указываем путь к файлу шрифта */
+    font-family: 'SONGER';
+    src: url('/fonts/SONGER_C_Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap; /* Для оптимизации загрузки */
 }
 
 /* Основные стили */
 body {
-    font-family: 'Riviera', serif; /* Основной шрифт - Riviera */
+    font-family: 'SONGER', serif; /* Основной шрифт - SONGER */
     line-height: 1.6;
     color: #333;
     background-color: #000000; /* Фон сайта */
 }
 
+/* Дополнительно: применение шрифта к заголовкам */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'SONGER', serif;
+    font-weight: normal; /* Если шрифт не имеет разных начертаний */
+}
 /* Шапка */
 .header {
     background: rgba(0, 0, 0, 0.8); /* Полупрозрачный черный */
