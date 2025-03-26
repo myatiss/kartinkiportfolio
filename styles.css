@@ -171,7 +171,7 @@ body {
 /* Секция "Обо мне" */
 .about {
     position: relative;
-/*height: 100vh; /* Занимает весь экран */ 
+    height: 100%; /* Занимает весь экран 
     display: flex;
     align-items: center;
     justify-content: center;
