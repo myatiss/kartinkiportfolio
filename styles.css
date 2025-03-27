@@ -8,7 +8,7 @@
 /* Подключение шрифта SONGER_C_Regular */
 @font-face {
     font-family: 'Riviera';
-    src: url('/fonts/SONGER_C_Regular.otf') format('truetype'); /* Указываем путь к файлу шрифта */
+    src: url('fonts/SONGER_C_Regular.otf') format('truetype'); /* Указываем путь к файлу шрифта */
 }
 
 /* Основные стили */
